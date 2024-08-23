@@ -78,11 +78,6 @@ func (i InfoMessage) String() string {
 		i.Distance,
 		i.Speed,
 		i.Calories,
-		i.TrainingType,
-		i.Duration.Minutes(),
-		i.Distance,
-		i.Speed,
-		i.Calories,
 	)
 }
 
